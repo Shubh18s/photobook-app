@@ -62,7 +62,7 @@ public class PhotoListFragment extends Fragment {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
 
-//        MobileAds.initialize(getActivity(), "ca-app-pub-4783680534092225~3471384531");
+//        MobileAds.initialize(getActivity(), "<Add mobile Ads ID here>");
 
     }
 
