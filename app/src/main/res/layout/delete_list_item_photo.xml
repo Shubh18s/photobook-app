@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:listSeparatorTextViewStyle">
+
+<CheckBox
+    android:id="@+id/selected_check_box"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="10dp"
+    android:padding="4dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rectangle_background"
+        android:layout_toLeftOf="@id/selected_check_box"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/delete_list_item_photo_Image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_action_name3"
+            />
+
+        <TextView
+            android:id="@+id/delete_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            android:maxLines="2"
+            android:textColor="@android:color/black"
+
+            android:layout_below="@id/delete_list_item_photo_Image"/>
+
+        <TextView
+            android:id="@+id/delete_date_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginBottom="4dp"
+            android:textStyle="normal"
+            android:textColor="@color/appPrimary"
+
+            android:layout_below="@id/delete_title_text_view"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
