@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_search_button"
+        android:icon="@drawable/search"
+        android:title="@string/search_button"
+        android:queryHint="Input image title"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+         />
+    <item
+    android:id="@+id/menu_item_new_photo"
+    android:icon="@drawable/ic_action_name8"
+    android:title="@string/new_photo"
+    app:showAsAction="always"
+    />
+    <item
+    android:id="@+id/menu_item_privacy_policy"
+    android:orderInCategory="100"
+    android:title="@string/privacy_policy_title"
+    app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_item_tnc"
+        android:orderInCategory="100"
+        android:title="@string/terms_conditions_title"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_item_aboutus"
+        android:orderInCategory="100"
+        android:title="@string/about_us_title"
+        app:showAsAction="never"/>
+
+
+</menu>
